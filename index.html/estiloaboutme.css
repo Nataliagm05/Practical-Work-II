@@ -8,3 +8,8 @@ header div{
     background: #f6b0b0;
     text-align: center;
 }
+div #Foto1{
+    width:300px;
+    height:300px;
+    text-align: center;
+}
