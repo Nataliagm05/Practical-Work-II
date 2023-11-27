@@ -1,6 +1,7 @@
 h3{
     color:pink;
-    padding: 100%;;
+    width: 100px;
+    height:100px;
 }
 header div{
     display: inline-block;
