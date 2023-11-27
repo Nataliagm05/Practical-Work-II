@@ -1,3 +1,9 @@
 h3{
     color:pink;
 }
+header div{
+    display: inline-block;
+    width:100px;
+    height:100px;
+    background:#999;
+}
