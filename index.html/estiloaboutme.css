@@ -5,6 +5,7 @@ h2{
 header div{
     display: inline-block;
     height:200px;
+    max-width: 100%;
     background: #f6b0b0;
     text-align: center;
 }
