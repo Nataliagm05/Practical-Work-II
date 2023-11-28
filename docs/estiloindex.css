@@ -1,6 +1,7 @@
 h1{
     text-align: center; 
-    color: #f6b0b0;
+    background-color: #f6b0b0;
+    max-width: 100%;
 }
 h2{
     text-align: center;
@@ -10,9 +11,11 @@ h3{
 }
 ul{
 	z-index: 0;
-	text-align: left;
-	padding: 20%;
+	text-align: center;
+	padding: 5%;
 }
 .lista1{
     position: relative;
+    float: left;
+    left: 48%;
 }
