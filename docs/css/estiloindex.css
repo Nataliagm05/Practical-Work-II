@@ -1,6 +1,6 @@
 h1{
     padding: 5%;
-    font-size: 30;
+    font-size: 60px;
     font-style: italic;
     text-align: center; 
     background-color: #f6b0b0;
@@ -8,17 +8,18 @@ h1{
 }
 h2{
     text-align: center;
+    font-size: 40px;
 }
 h3{
     text-align: center;
+    font-size: 30px;
 }
 ul{
 	z-index: 0;
 	text-align: center;
 }
 .lista1{
-    position: relative;
+    position: absolute;
     float: left;
     left: 45%;
-    text-align: center;
 }
