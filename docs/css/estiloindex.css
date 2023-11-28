@@ -1,4 +1,7 @@
 h1{
+    padding: 5%;
+    font-size: 30;
+    font-style: italic;
     text-align: center; 
     background-color: #f6b0b0;
     max-width: 100%;
@@ -12,10 +15,10 @@ h3{
 ul{
 	z-index: 0;
 	text-align: center;
-	padding: 5%;
 }
 .lista1{
     position: relative;
     float: left;
-    left: 48%;
+    left: 45%;
+    text-align: center;
 }
