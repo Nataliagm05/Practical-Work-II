@@ -8,6 +8,11 @@ h2{
 h3{
     text-align: center;
 }
+ul{
+	z-index: 0;
+	text-align: left;
+	padding: 20%;
+}
 .lista1{
     position: relative;
 }
