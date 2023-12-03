@@ -19,7 +19,65 @@ ul{
 	text-align: left;
 }
 .lista1{
+    font-size: 30px;
     position: absolute;
     float: left;
-    left: 43%;
+    padding-left: 3%;
+}
+.lista2{
+    font-size: 30px;
+    float: right;
+    padding-top: 10%;
+    padding-right: 5%;
+}
+.lista3{
+    font-size: 30px;
+    position: absolute;
+    float: left;
+    padding-top: 20%;
+    padding-left: 3%;
+}
+.lista4{
+    font-size: 30px;
+    float: right;
+    position: absolute;
+    padding-top: 30%;
+    right:0%;
+    padding-right: 5%;
+}
+.lista5{
+    font-size: 30px;
+    position: absolute;
+    float: left;
+    padding-top: 40%;
+    padding-left: 3%;
+}
+.one{
+    font-size: 30px; 
+    padding-top: 8%;
+    float: right;
+}
+.two{
+    font-size: 30px; 
+    padding-top: 8%;
+    float: left; 
+    padding-left: 3%;
+}
+.three{
+    font-size: 30px; 
+    padding-top: 8%;
+    float: right;
+    right: 3%;
+}
+.four{
+    padding-left: 3%;
+    font-size: 30px; 
+    padding-top: 5%;
+    float: left; 
+}
+.five{
+    padding-left: 3%;
+    font-size: 30px; 
+    padding-top: 8%;
+    float: left; 
 }
