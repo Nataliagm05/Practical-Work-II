@@ -1,0 +1,48 @@
+body{
+    background-color: beige;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    padding: 5%;
+    font-style: italic;
+    background-color: #f6b0b0;
+    max-width: 100%;
+}
+.titulo1{
+    text-align: left;
+    font-size: 40px;
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
+.content{
+    float: left;
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
+ul{
+    font-size: 25px;
+}
+.titulo2{
+    text-align: left;
+    font-size: 40px;
+    padding-left: 3%;
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+.titulo3{
+    text-align: left;
+    font-size: 40px;
+    padding-left: 3%;
+    padding-bottom: 2%;
+}
+.titulo4{
+    text-align: left;
+    font-size: 40px;
+    padding-left: 3%;
+    padding-bottom: 2%;  
+}
+

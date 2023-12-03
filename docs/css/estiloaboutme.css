@@ -1,3 +1,6 @@
+body{
+    background-color: beige;
+}
 h1{
     font-size: 60px;
     text-align: center;
@@ -15,9 +18,7 @@ h2{
     float:right;
     height:250px;
     max-width: 100%;
-    background: #f6b0b0;
-    
-
+    background: #f6b0b0;   
 }
 img{
     float:left;
