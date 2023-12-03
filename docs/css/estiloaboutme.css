@@ -28,8 +28,8 @@ img{
 }
 .container{
     float: left;
-    width:375px;
-    height:450px;
+    width:360px;
+    height:400px;
 }
 h3{
     float: right; 
@@ -42,6 +42,11 @@ h3{
     padding-bottom: 3%;
     font-family:Georgia, 'Times New Roman', Times, serif ;
 }
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 ul.slider{
     position: relative;
     width:375px;
@@ -50,7 +55,7 @@ ul.slider{
 ul.slider li{
     position: absolute;
     opacity:0;
-    width:375px;
+    width:375px; 
     height:450px;
     transition: opacity .5s;
 }
@@ -66,10 +71,15 @@ ul.slider li:target{
     opacity: 1;
 }
 .menu{
-    text-align: center;
+    text-align: center;    
+    margin-left: 100px;
+    width: 20%;
+    right: 20%;
+    position: relative;
+    float: left; 
 }
 .menu li{
- text-align: center;
+    text-align: center;
 }
 .menu li a{
     background: grey;
@@ -80,7 +90,7 @@ ul.slider li:target{
     float: left;
     width: 60px;
     height: 60px;
-    padding-left: 13%;
+    padding-left: 30%;
 }
 .textoinsta{
     padding-top: 30%;
