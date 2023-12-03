@@ -13,13 +13,13 @@ h2{
     text-align: center;
     font-size: 40px;
 }
-h3{
-    text-align: center;
-    font-size: 30px;
-}
+
 ul{
 	z-index: 0;
 	text-align: left;
+}
+.lista{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .lista1{
     font-size: 30px;
@@ -30,21 +30,21 @@ ul{
 .lista2{
     font-size: 30px;
     float: right;
-    padding-top: 10%;
+    padding-top: 7%;
     padding-right: 5%;
 }
 .lista3{
     font-size: 30px;
     position: absolute;
     float: left;
-    padding-top: 20%;
+    padding-top: 14%;
     padding-left: 3%;
 }
 .lista4{
     font-size: 30px;
     float: right;
     position: absolute;
-    padding-top: 30%;
+    padding-top: 21%;
     right:0%;
     padding-right: 5%;
 }
@@ -52,35 +52,24 @@ ul{
     font-size: 30px;
     position: absolute;
     float: left;
-    padding-top: 40%;
+    padding-top: 30%;
     padding-left: 3%;
 }
-.one{
-    font-size: 30px; 
-    padding-top: 8%;
-    float: right;
-}
-.two{
-    font-size: 30px; 
-    padding-top: 8%;
-    float: left; 
-    padding-left: 3%;
-}
-.three{
-    font-size: 30px; 
-    padding-top: 8%;
-    float: right;
-    right: 3%;
-}
-.four{
-    padding-left: 3%;
+.one, .three {
     font-size: 30px; 
     padding-top: 5%;
-    float: left; 
+    float: right;
 }
-.five{
-    padding-left: 3%;
+.two, .five{
     font-size: 30px; 
-    padding-top: 8%;
+    padding-top: 6%;
+    float: left; 
+    padding-left: 2%;
+}
+
+.four{
+    padding-left: 2%;
+    font-size: 30px; 
+    padding-top: 5%;
     float: left; 
 }
