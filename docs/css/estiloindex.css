@@ -20,56 +20,44 @@ ul{
 }
 .lista{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
-.lista1{
+.lista .lista1{
     font-size: 30px;
-    position: absolute;
-    float: left;
     padding-left: 3%;
 }
-.lista2{
+.lista .lista2{
     font-size: 30px;
-    float: right;
-    padding-top: 7%;
-    padding-right: 5%;
-}
-.lista3{
-    font-size: 30px;
-    position: absolute;
-    float: left;
-    padding-top: 14%;
     padding-left: 3%;
 }
-.lista4{
+.lista .lista3{
     font-size: 30px;
-    float: right;
-    position: absolute;
-    padding-top: 21%;
-    right:0%;
-    padding-right: 5%;
+    padding-left: 3%;
 }
-.lista5{
+.lista .lista4{
     font-size: 30px;
-    position: absolute;
-    float: left;
-    padding-top: 30%;
+    padding-left: 3%;
+}
+.lista .lista5{
+    font-size: 30px;
     padding-left: 3%;
 }
 .one, .three {
     font-size: 30px; 
-    padding-top: 5%;
-    float: right;
+    padding-left: 3%;
 }
-.two, .five{
+.five{
     font-size: 30px; 
-    padding-top: 6%;
-    float: left; 
-    padding-left: 2%;
+    padding-left: 3%;
+    margin-bottom: 3%;
 }
-
+.two{
+    font-size: 30px; 
+    padding-left: 3%;
+}
 .four{
-    padding-left: 2%;
+    padding-left: 3%;
     font-size: 30px; 
-    padding-top: 5%;
-    float: left; 
 }

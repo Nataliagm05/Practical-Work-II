@@ -9,19 +9,54 @@ h1{
     background-color: #f6b0b0;
     max-width: 100%;
 }
+.img1, .img2 {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.img1{
+    float: inline-start;
+    width: 200px;
+    height: 200px;
+}
+.img2{
+    float: inline-end;
+    width: 200px;
+    height: 200px;
+}
 .titulo1{
     text-align: left;
     font-size: 40px;
     padding-left: 3%;
     padding-bottom: 3%;
+    padding-top: 3%;
+}
+.contenedor{
+    display: flex;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-right: 5%;
 }
 .content{
-    float: left;
+    float: right;
     font-size:20px;
     font-family:Georgia, 'Times New Roman', Times, serif ;
     padding-left: 3%;
     padding-right: 3%;
     padding-bottom: 3%;
+}
+.content1{
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    float: left;
+    padding-left: 3%;
+}
+.img3{
+    width: 400px;
+    height: 300px;
+    float: inline-start;
+    float: left; /* Permite mover la imagen hacia la izquierda en el contenedor */
+    margin-right: 15px;
 }
 ul{
     font-size: 25px;
