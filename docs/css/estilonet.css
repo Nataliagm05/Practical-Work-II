@@ -1,0 +1,32 @@
+body{
+    background-color:rgb(238, 238, 228) ;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    padding: 5%;
+    font-style: italic;
+    background-color: #f6b0b0;
+    max-width: 100%;
+}
+.titulo5{
+    text-align: center;
+    display: inline-block;
+
+}
+.pagp{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    float:left;
+    padding: 1%;
+}
+.img1{
+    width: 40px;
+    float:inline-start;
+    padding-left: 5%;
+}
+.img2{
+    width: 40px;
+    float:inline-end;
+    padding-right: 5%;
+}
