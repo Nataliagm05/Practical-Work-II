@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Practical Work II
+    </title>
+    <script type="text/javascript" src="../Javascript/javascriptcontact.js"></script>
+    <meta charset="UTF-8">
+    <link rel="StyleSheet" href="../css/estilocontact.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="pagp">
+        <a href="../index.html">
+            <span class="icon"><i class="fas fa-house"></i></span>
+        </a>
+    </div>
+    <h1>
+        CONTACT
+    </h1>
+    <form action="../index.html" method="post">
+        <label for="fname">Name:</label><br>
+        <input type="text" id="fname" name="fname" value="Escriba su nombre..." onFocus="vaciar(this)" onBlur ="verificarEntrada(fname)"><br>
+        <label for="lname">Surname:</label><br>
+        <input type="text" id="lname" name="lname" value="Escriba su apellido..."  onFocus="vaciar(this)" onBlur ="verificarEntrada2(lname)"><br>
+        <label for="uname"> User: </label><br>
+        <input type="text" id="uname" name="uname" value="Escriba su usuario..." onFocus="vaciar(this)" onBlur ="verificarEntrada3(uname)"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd"><br>
+        <label for="message">Mensaje:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="ENVIAR">
+    </form>
+
+</body>
+
+</html>

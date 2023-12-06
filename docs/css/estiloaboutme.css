@@ -9,6 +9,23 @@ h1{
     background-color: #f6b0b0;
     max-width: 100%;
 }
+.pagp1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    float: left;
+    margin: 30px;
+}
+.pagp2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 40px;
+    float: right;
+}
+.icon{
+    color: #020a15;
+    width: 60px; 
+    display: inline-block;
+}
 h2{
     color: #f6b0b0;
     text-align: center;
@@ -185,7 +202,6 @@ th{
 .img1{
     width: 40px;
     float:inline-start;
-    padding-left: 5%;
 }
 .img2{
     width: 40px;
@@ -196,10 +212,4 @@ th{
     text-align: center;
     display: inline-block;
 
-}
-.pagp{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    float:left;
-    padding: 1%;
 }

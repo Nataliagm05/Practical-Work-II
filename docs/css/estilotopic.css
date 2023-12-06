@@ -68,26 +68,36 @@ ul{
     padding-left: 3%;
     padding-bottom: 1%;
 }
-.img5{
-    width: 40px;
-    float:inline-start;
-    padding-left: 5%;
-}
-.img6{
-    width: 40px;
-    float:inline-end;
-    padding-right: 5%;
-}
-.titulo4{
+.titulo1{
     text-align: center;
     display: inline-block;
 
 }
-.pagp{
+.pagp1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
-    float:left;
-    padding: 1%;
+    margin: 40px;
+    float: left;
+}
+.pagp2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 40px;
+    float: right;
+}
+.icon{
+    color: #020a15;
+    width: 60px; 
+    display: inline-block;
+}
+.img1{
+    width: 40px;
+    float:inline-start;
+}
+.img2{
+    width: 40px;
+    float:inline-end;
+    padding-right: 5%;
 }
 .img8{
     float: inline-end;
