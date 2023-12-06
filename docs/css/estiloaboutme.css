@@ -1,5 +1,5 @@
 body{
-    background-color: beige;
+    background-color:rgb(238, 238, 228) ;
 }
 h1{
     font-size: 60px;
@@ -86,6 +86,42 @@ ul.slider li:target{
     width: 20px;
     height:20px;
    }
+
+
+
+
+   .imagen-container {
+    position: relative;
+    display: inline-block;
+   }
+   
+   .imagen-activa {
+    display: block;
+    width: 300px;
+   }
+   
+   .imagen-inactiva {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+   }
+   
+   .flecha {
+    font-size: 24px;
+    cursor: pointer;
+   }
+   
+   .flecha-izquierda {
+    float: left;
+   }
+   
+   .flecha-derecha {
+    float: right;
+   }
+
+
+
 .Instagram{
     float: left;
     width: 60px;
@@ -145,4 +181,25 @@ th{
     padding-top: 37%;
     text-align: center;
     padding-bottom: 3%;
+}
+.img1{
+    width: 40px;
+    float:inline-start;
+    padding-left: 5%;
+}
+.img2{
+    width: 40px;
+    float:inline-end;
+    padding-right: 5%;
+}
+.titulo1{
+    text-align: center;
+    display: inline-block;
+
+}
+.pagp{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    float:left;
+    padding: 1%;
 }
