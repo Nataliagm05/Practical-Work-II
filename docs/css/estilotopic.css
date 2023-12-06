@@ -168,3 +168,12 @@ ul{
     float: right; /* Permite mover la imagen hacia la izquierda en el contenedor */
     margin-left: 15px; 
 }
+.icon1{
+    color:black;
+    float: left;
+    width: 1px;
+}
+.icon2{
+    color:black;
+    float: right;
+}

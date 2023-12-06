@@ -40,3 +40,12 @@ h1{
     float:inline-end;
     padding-right: 5%;
 }
+.icon1{
+    color:black;
+    float: left;
+    width: 1px;
+}
+.icon2{
+    color:black;
+    float: right;
+}

@@ -156,10 +156,17 @@ th{
 .img2{
     width: 40px;
     float:inline-end;
-    padding-right: 5%;
+    padding-right: 8%;
 }
 .titulo1{
-    text-align: center;
     display: inline-block;
-
+}
+.icon1{
+    color:black;
+    float: left;
+}
+.icon2{
+    color:black;
+    float: right;
+    width: 1px;
 }
