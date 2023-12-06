@@ -5,6 +5,7 @@
 Practical Work II
 </title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="StyleSheet" href="../css/estiloaboutme.css" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 </head>
@@ -30,84 +31,52 @@ Practical Work II
 </a>
 </h1>
 <h2>Natalia García Montero
+    <button class="flecha flecha-izquierda">&#60;</button><button class="flecha flecha-derecha">&#62;</button>
 </h2>
-<div class="imagen-container">
-    <button class="flecha flecha-izquierda">&#60;
-    </button><a href="./AboutMe.html">
-    <img class="imagen-activa" src="../imagenes/Imagen1.jpg" alt="Imagen 1">
-    </a> 
-    </button>
-    <button class="flecha flecha-derecha">&#62;
-    <a href="./AboutMe.html"> 
-    <img class="imagen-inactiva" src="../imagenes/Imagen2.jpg" alt="Imagen 2">
-    </a> 
-   </button>
+    <div class="imagen-container">
+        <a href="https://ejemplo.com/imagen1.html" target="_blank">
+            <img class="imagen-activa" src="../imagenes/Imagen1.jpg" alt="Imagen 1">
+        </a>
+        <a href="https://ejemplo.com/imagen2.html" target="_blank">
+            <img class="imagen-inactiva" src="../imagenes/Imagen2.jpg" alt="Imagen 2">
+        </a>
     </div>
 
+    <script>
+        const flechas = document.querySelectorAll('.flecha');
+        const imagenes = document.querySelectorAll('.imagen-container a');
+        let imagenActiva = 0;
 
-<!--<div class="container">
-    <ul id="slider1">
-        <li id="slider1_item">
-            <img src="../imagenes/Imagen1.jpg"><br>
-        </li>
-    </ul>
-    <ul id="slider2">
-        <li id="slider2_item">
-            <img src="../imagenes/Imagen2.jpg"><br>
-        </li>
-    </ul>
-    <ul class="menu">
-        <li>
-            <a href="#slide1">
-                <img src="../imagenes/Imagenflecha.png"></img>
-            </a>
-        </li>
-        <li>
-            <a href="#slide2">
-                <img src="../imagenes/Imagenflechaizq.png">
-                </img>
-            </a>
-        </li>
-    </ul>
-</div>-->
-<!--<div class="container">
-    <ul id="slider1">
-        <li id="slider1">
-                <img src="../imagenes/Imagen1.jpg"><br>
-        </li>
-    </ul>
-    <ul id="slider2">
-        <li id="slider2">
-                <img src="../imagenes/Imagen2.jpg"><br>
-        </li>
-    </ul>
-    <ul class="menu">
-        <li>
-            <a href="#slide1">
-                <img src="../imagenes/Imagenflecha.jpg"></img>
-            </a>
-        </li>
-        <li>
-            <a href="#slide2">
-                <img src="../imagenes/Imagenflechaizq.jpg">
-                </img>
-            </a>
-        </li>
-    </ul>
-</div>-->
+        flechas.forEach(flecha => {
+            flecha.addEventListener('click', () => {
+                imagenes[imagenActiva].querySelector('img').classList.remove('imagen-activa');
+                imagenes[imagenActiva].querySelector('img').classList.add('imagen-inactiva');
+
+                if (flecha.classList.contains('flecha-izquierda')) {
+                    imagenActiva--;
+                    if (imagenActiva < 0) {
+                        imagenActiva = imagenes.length - 1;
+                    }
+                } else {
+                    imagenActiva++;
+                    if (imagenActiva >= imagenes.length) {
+                        imagenActiva = 0;
+                    }
+                }
+
+                imagenes[imagenActiva].querySelector('img').classList.remove('imagen-inactiva');
+                imagenes[imagenActiva].querySelector('img').classList.add('imagen-activa');
+            });
+        });
+    </script>
+
 <h3>
     <div class="content">
         Natalia is a happy, hard-working and fighter girl. She likes to achieve everything she sets her mind to and does everything possible to achieve it. In addition, she really likes to travel and enjoy nature and the company of people.
         She also really enjoys the company of her family and being able to do many activities with them, whether it's watching a movie, going for a walk and many other things.
 </div>
 </h3>
-<!--<div class="Foto3">
-    <img src="../imagenes/Imagenflecha.jpg"><br>
-</div>
-<div class="Foto4">
-    <img src="../imagenes/Imagenflechaizq.jpg"><br>
-</div>
--->
+<div class="redes">
 <div  class="Instagram">
     <a href="https://www.instagram.com/naatalia_g_m/">
         <img src="../imagenes/Insta3.png">
@@ -134,6 +103,7 @@ Practical Work II
             @_natalia_g_m_
         </div>
     </a>
+</div>
 </div>
 <div class="content2">
     <u>Curriculum Vitae</u>
