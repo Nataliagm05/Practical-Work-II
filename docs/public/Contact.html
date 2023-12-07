@@ -1,95 +1,113 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>
         Practical Work II
     </title>
     <meta charset="UTF-8">
-    <link rel="StyleSheet" href="../css/estilocontact.css" type="text/css">
+    <link rel="StyleSheet" href="../css/estiloindex.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 </head>
 
 <body>
-    <div class="pagp">
-        <a href="../index.html">
-            <span class="icon"><i class="fas fa-house"></i></span>
+    <div class="titulo1">
+        <div class="pagp1">
+            <a href="../index.html">
+                <span class="icon2"><i class="fas fa-house"></i></span>
+            </a>
+        </div>
+        <div class="contact">
+            <b>CONTACT</b>
+        </div>
+        <a href="./AboutMe.html">
+            <span class="icon1"><i class="fa-solid fa-person"></i></span>
+        </a>
+        <a href="./Topic.html">
+            <span class="icon1"><i class="fa-solid fa-city"></i></span>
+        </a>
+        <a href="./Net.html">
+            <span class="icon1"><i class="fa-solid fa-network-wired"></i></span>
+        </a>
+        <a href="./Degree.html">
+            <span class="icon1"><i class="fa-solid fa-signature"></i></span>
         </a>
     </div>
-    <h1>
-        CONTACT
-    </h1>
     <form action="../index.html" method="post">
         <label for="fname">Name:</label><br>
-        <input type="text" id="fname" name="fname" value="Escriba su nombre..." onFocus="vaciar(this)" onBlur ="verificarEntrada(fname)"><br>
+        <input type="text" id="fname" name="fname" value="Escriba su nombre..." onFocus="vaciar(this)"
+            onBlur="verificarEntrada(fname)"><br>
         <label for="lname">Surname:</label><br>
-        <input type="text" id="lname" name="lname" value="Escriba su apellido..."  onFocus="vaciar(this)" onBlur ="verificarEntrada2(lname)"><br>
+        <input type="text" id="lname" name="lname" value="Escriba su apellido..." onFocus="vaciar(this)"
+            onBlur="verificarEntrada2(lname)"><br>
         <label for="uname"> User: </label><br>
-        <input type="text" id="uname" name="uname" value="Escriba su usuario..." onFocus="vaciar(this)" onBlur ="verificarEntrada3(uname)"><br>
+        <input type="text" id="uname" name="uname" value="Escriba su usuario..." onFocus="vaciar(this)"
+            onBlur="verificarEntrada3(uname)"><br>
         <label for="pwd">Password:</label><br>
         <input type="password" id="pwd" name="pwd"><br>
         <label for="message">Mensaje:</label><br>
         <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
         <input type="submit" value="ENVIAR">
     </form>
-<script>
-    function vaciar(fname) {
-    let contaa = 0;
-    let contab = 0;
+    <script>
+        function vaciar(fname) {
+            let contaa = 0;
+            let contab = 0;
 
-    if (contaa == 0 & fname.name == "fname") {
-        fname.value = '';
-        contaa = 1;
-    }
-    if (contab == 0 & fname.name == "lname") {
-        fname.value = '';
-        contab = 1;
-    }
-    if (contaa == 0 & fname.name == "uname") {
-        fname.value = '';
-        contaa = 1;
-    }
-}
-var alertShown = false;
-
-function verificarEntrada(fname) {
-    if (fname.value == '' && !alertShown) {
-        alert('The Name field cannot be left empty');
-        alertShown = true;
-    } else {
-        var x = fname.value;
-        fname.value = x.toUpperCase();
-    }
-}
-var alertShown2 = false;
-
-function verificarEntrada2(lname) {
-    if (lname.value == ''&& !alertShown2) {
-        if (!alertShown2) { 
-            alert('The Last Name field cannot be left empty.');
-            alertShown2 = true; 
+            if (contaa == 0 & fname.name == "fname") {
+                fname.value = '';
+                contaa = 1;
+            }
+            if (contab == 0 & fname.name == "lname") {
+                fname.value = '';
+                contab = 1;
+            }
+            if (contaa == 0 & fname.name == "uname") {
+                fname.value = '';
+                contaa = 1;
+            }
         }
-    } else {
-        var y = lname.value;
-        lname.value = y.toUpperCase();
-    }
-}
-var alertShown3 = false;
+        var alertShown = false;
 
-function verificarEntrada3(uname) {
-    if (uname.value == '' && !alertShown3) {
-        alert('The User field cannot be left empty.');
-        alertShown3 = true;
-    } else {
-        var t = uname.value;
-        uname.value = t.toUpperCase();
-    }
-}
-    function init() {
-        verificarEntrada(document.getElementById('fname'));
-        verificarEntrada2(document.getElementById('lname'));
-        verificarEntrada3(document.getElementById('uname'));
-    }
-</script>
+        function verificarEntrada(fname) {
+            if (fname.value == '' && !alertShown) {
+                alert('The Name field cannot be left empty');
+                alertShown = true;
+            } else {
+                var x = fname.value;
+                fname.value = x.toUpperCase();
+            }
+        }
+        var alertShown2 = false;
+
+        function verificarEntrada2(lname) {
+            if (lname.value == '' && !alertShown2) {
+                if (!alertShown2) {
+                    alert('The Last Name field cannot be left empty.');
+                    alertShown2 = true;
+                }
+            } else {
+                var y = lname.value;
+                lname.value = y.toUpperCase();
+            }
+        }
+        var alertShown3 = false;
+
+        function verificarEntrada3(uname) {
+            if (uname.value == '' && !alertShown3) {
+                alert('The User field cannot be left empty.');
+                alertShown3 = true;
+            } else {
+                var t = uname.value;
+                uname.value = t.toUpperCase();
+            }
+        }
+        function init() {
+            verificarEntrada(document.getElementById('fname'));
+            verificarEntrada2(document.getElementById('lname'));
+            verificarEntrada3(document.getElementById('uname'));
+        }
+    </script>
 </body>
 
 </html>
