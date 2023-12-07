@@ -1,101 +1,125 @@
 /*Todos*/
-body{
-    background-color:rgb(238, 238, 228) ;
+body {
+    background-color: rgb(238, 238, 228);
 }
+
 /*Index*/
-h1{
+h1 {
     padding: 5%;
     font-size: 60px;
     font-style: italic;
-    text-align: center; 
+    text-align: center;
     background-color: #f6b0b0;
     max-width: 100%;
 }
 
-h2{
+h2 {
     text-align: center;
     font-size: 40px;
 }
 
-ul{
-	z-index: 0;
-	text-align: left;
+ul {
+    z-index: 0;
+    text-align: left;
     font-size: 30px;
 }
-.lista{
+
+.lista {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    color:black; 
+    color: black;
 }
-.lista .lista1{
+
+.lista .lista1 {
     font-size: 30px;
     padding-left: 3%;
 }
-.lista .lista2{
+
+.lista .lista2 {
     font-size: 30px;
     padding-left: 3%;
 }
-.lista .lista3{
+
+.lista .lista3 {
     font-size: 30px;
     padding-left: 3%;
 }
-.lista .lista4{
+
+.lista .lista4 {
     font-size: 30px;
     padding-left: 3%;
 }
-.lista .lista5{
+
+.lista .lista5 {
     font-size: 30px;
     padding-left: 3%;
 }
-.one, .three {
-    font-size: 30px; 
+
+.one,
+.three {
+    font-size: 30px;
     padding-left: 3%;
 }
-.five{
-    font-size: 30px; 
+
+.five {
+    font-size: 30px;
     padding-left: 3%;
     margin-bottom: 3%;
 }
-.two{
-    font-size: 30px; 
+
+.two {
+    font-size: 30px;
     padding-left: 3%;
 }
-.four{
+
+.four {
     padding-left: 3%;
-    font-size: 30px; 
+    font-size: 30px;
 }
-.icon{
+
+.icon {
     width: 30px;
-    color:black;
+    color: black;
 }
 
 
 /*Todos excepto index*/
-.titulo1, .aboutme, .topic, .net, .degree{
+.titulo1,
+.aboutme,
+.topic,
+.net,
+.degree {
     font-size: 60px;
     text-align: center;
     font-style: italic;
     background-color: #f6b0b0;
     max-width: 100%;
     padding: 1%;
-    
+
 }
-.aboutme, .topic, .net, .degree{
+
+.aboutme,
+.topic,
+.net,
+.degree {
     margin-top: 4%;
 }
+
 .icon1 {
     color: black;
     display: inline-block;
     font-size: 30px;
 
 }
-.icon2{
+
+.icon2 {
     color: #020a15;
     font-size: 30px;
     display: inline-block;
 }
+
 .pagp1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
@@ -109,6 +133,7 @@ ul{
     margin: 40px;
     float: right;
 }
+
 /*About me*/
 .nombre {
     color: #f6b0b0;
@@ -116,6 +141,7 @@ ul{
     font-size: 40px;
     margin-top: 2%;
 }
+
 .content {
     float: right;
     height: 250px;
@@ -257,124 +283,148 @@ th {
 
 
 /*Topic*/
-.img3, .img4 {
+.img3,
+.img4 {
     display: inline-block;
     max-width: 100%;
     max-height: 100%;
 }
-.img3{
+
+.img3 {
     float: inline-start;
     width: 200px;
     height: 200px;
+    margin-right: 6%;
 }
-.img4{
+
+.img4 {
+    margin-right: 3%;
     float: inline-end;
     width: 200px;
     height: 200px;
 }
-.titulo2{
-    text-align: left;
-    font-size: 40px;
-    padding-left: 3%;
-    padding-bottom: 1%;
-    padding-top: 3%;
+
+.titulo2 {
+    padding-top: 5%;
 }
-.contenedor{
+
+.contenedor {
     display: flex;
-    padding-left: 5%;
+    padding-left: 3%;
     padding-top: 2%;
     padding-right: 5%;
 }
-.content3{
+
+.content3 {
     float: right;
-    font-size:20px;
-    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding-left: 3%;
     padding-right: 3%;
     padding-bottom: 1%;
 }
-.content4{
-    font-size:20px;
-    font-family:Georgia, 'Times New Roman', Times, serif ;
+
+.content4 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     float: left;
     padding-left: 3%;
     padding-bottom: 1%;
 }
-.titulo3{
+
+.titulo3,
+.titulo2 {
     text-align: left;
     font-size: 40px;
     padding-left: 3%;
     padding-bottom: 1%;
 }
-.img8{
-    float: inline-end;
-    float: right; /* Permite mover la imagen hacia la izquierda en el contenedor */
-    margin-left: 10px;
+
+.img7 {
+    width: 500px;
+    height: 350px;
 }
-.img9{
+.img8 {
+    float: inline-end;
+    float: right;
+}
+
+.img9 {
     width: 400px;
     height: 300px;
-    float: inline-start;
-    float: left; /* Permite mover la imagen hacia la izquierda en el contenedor */
-    margin-right: 15px;
+    float: left;
+    margin-right: 20px;
 }
-.img10, .img12{
+
+.img10,
+.img12 {
     width: 200px;
     float: inline-start;
-    float: left; /* Permite mover la imagen hacia la izquierda en el contenedor */
-    margin-right: 15px;
+    float: left;
+    margin-right: 20px;
 
 }
-.seul{
-    padding-bottom:1% ;
+
+.seul {
+    padding-bottom: 1%;
     padding-top: 2%;
 }
-.img11{
+
+.img11 {
     width: 200px;
     float: inline-end;
-    float: right; /* Permite mover la imagen hacia la izquierda en el contenedor */
-    margin-left: 15px;
+    float: right;
+    margin-left: 20px;
     height: auto;
 }
-.miami{
-    padding-bottom:1% ;
+
+.miami {
+    padding-bottom: 1%;
     padding-top: 2%;
 }
-.img12{
+
+.img12 {
     height: 150px;
 }
-.london{
-    padding-bottom:3% ;
+
+.london {
+    padding-bottom: 3%;
     padding-top: 3%;
 }
-.newyork{
-   padding-bottom: 1%; 
-   padding-top: 2%;
+
+.newyork {
+    padding-bottom: 1%;
+    padding-top: 2%;
 }
-.img13{
+
+.img13 {
     width: 300px;
     float: inline-end;
-    float: right; /* Permite mover la imagen hacia la izquierda en el contenedor */
-    margin-left: 15px;
+    float: right;
+    margin-left: 20px;
     height: auto;
 }
-.paris{
-    padding-bottom:1% ;
+
+.paris {
+    padding-bottom: 1%;
     padding-top: 3%;
 }
-.img14{
+
+.img14 {
     width: 300px;
     float: inline-start;
-    float: left; /* Permite mover la imagen hacia la izquierda en el contenedor */
-    margin-right: 15px;
+    float: left;
+    margin-right: 20px;
 }
-.img15{
+
+.img15 {
     width: 400px;
     height: 300px;
     float: inline-end;
-    float: right; /* Permite mover la imagen hacia la izquierda en el contenedor */
-    margin-left: 15px; 
+    float: right;
+    margin-left: 20px;
 }
+
 /*Net*/
 
 /*Degree*/
