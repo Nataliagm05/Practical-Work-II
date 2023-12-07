@@ -33,28 +33,43 @@ ul {
 }
 
 .lista .lista1 {
+    color: #f6b0b0;
     font-size: 30px;
     padding-left: 3%;
+    padding-bottom: 1%;
+    padding-top: 2%;
 }
 
 .lista .lista2 {
+    color: #f6b0b0;
     font-size: 30px;
     padding-left: 3%;
+    padding-bottom: 1%;
+    padding-top: 2%;
 }
 
 .lista .lista3 {
+    color: #f6b0b0;
     font-size: 30px;
     padding-left: 3%;
+    padding-bottom: 1%;
+    padding-top: 2%;
 }
 
 .lista .lista4 {
+    color: #f6b0b0;
     font-size: 30px;
     padding-left: 3%;
+    padding-bottom: 1%;
+    padding-top: 2%;
 }
 
 .lista .lista5 {
+    color: #f6b0b0;
     font-size: 30px;
     padding-left: 3%;
+    padding-bottom: 1%;
+    padding-top: 2%;
 }
 
 .one,
@@ -81,7 +96,7 @@ ul {
 
 .icon {
     width: 30px;
-    color: black;
+    color:rgb(13, 194, 191);
 }
 
 
@@ -90,7 +105,7 @@ ul {
 .aboutme,
 .topic,
 .net,
-.degree {
+.degree, .contact {
     font-size: 60px;
     text-align: center;
     font-style: italic;
@@ -103,18 +118,20 @@ ul {
 .aboutme,
 .topic,
 .net,
-.degree {
+.degree, .contact{
     margin-top: 4%;
 }
 
-.icon1 {
-    color: black;
-    display: inline-block;
+.icon1, .icon3{
+    color:rgb(0, 0, 0);
     font-size: 30px;
 
 }
+.arreglo, .arreglo2{
+    display: inline-block;
+}
 
-.icon2 {
+.icon2{
     color: #020a15;
     font-size: 30px;
     display: inline-block;
@@ -207,40 +224,42 @@ h3 {
 }
 
 .Instagram {
-    float: left;
     width: 60px;
     height: 60px;
-    padding-left: 30%;
+    padding-left: 40%;
+    display: inline-block;
 }
 
 .textoinsta {
-    padding-top: 30%;
+    padding-top: 10%;
     font-size: 25px;
+    display: inline-block;
 }
 
 .TikTok {
-    float: left;
-    text-align-last: auto;
     width: 60px;
     height: 60px;
-    padding-left: 14%;
+    padding-left: 10%;
+    display: inline-block;
 }
 
 .textotiktok {
-    padding-top: 100%;
+    padding-top: 10%;
     font-size: 25px;
+    display: inline-block;
 }
 
 .X {
-    float: left;
     width: 60px;
     height: 60px;
-    padding-left: 13%;
+    padding-left: 10%;
+    display: inline-block;
 }
 
 .textoX {
-    padding-top: 30%;
+    padding-top: 10%;
     font-size: 25px;
+    display: inline-block;
 }
 
 table,
@@ -250,15 +269,16 @@ td {
     border-collapse: collapse;
     font-size: 20px;
     background-color: #f6b0b0;
+ 
 }
 
 table {
     font-family: Arial, Helvetica, sans-serif;
-    float: right;
     width: auto;
     border-spacing: 10px;
     margin-right: 15%;
     margin-bottom: 5%;
+    float: right;
 }
 
 th,
@@ -275,7 +295,7 @@ th {
     font-family: "Courier New", monospace;
     font-style: oblique;
     font-weight: bold;
-    padding-top: 10%;
+    padding-top: 3%;
     text-align: center;
     padding-bottom: 3%;
     color: #f6b0b0;
@@ -298,7 +318,7 @@ th {
 }
 
 .img4 {
-    margin-right: 3%;
+    margin-right: 5%;
     float: inline-end;
     width: 200px;
     height: 200px;
@@ -430,6 +450,9 @@ th {
 /*Degree*/
 
 /*Contact*/
+.contact{
+    margin-right: 5%;
+}
 form {
     display: flex;
     flex-direction: column;

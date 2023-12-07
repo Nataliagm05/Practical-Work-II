@@ -1,0 +1,162 @@
+body{
+    background-color:rgb(238, 238, 228) ;
+}
+.titulo1{
+    font-size: 40px;
+    text-align: center;
+    padding: 1%;
+    font-style: italic;
+    background-color: #f6b0b0;
+    max-width: 100%;
+}
+.img3, .img4 {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.img3{
+    float: inline-start;
+    width: 200px;
+    height: 200px;
+}
+.img4{
+    float: inline-end;
+    width: 200px;
+    height: 200px;
+}
+.titulo2{
+    text-align: left;
+    font-size: 40px;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    padding-top: 3%;
+}
+.contenedor{
+    display: flex;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-right: 5%;
+}
+.content3{
+    float: right;
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1%;
+}
+.content4{
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    float: left;
+    padding-left: 3%;
+    padding-bottom: 1%;
+}
+.img7{
+    width: 400px;
+    height: 300px;
+    float: inline-start;
+    float: left; /* Permite mover la imagen hacia la izquierda en el contenedor */
+    margin-right: 15px;
+}
+ul{
+    font-size: 25px;
+}
+.titulo3{
+    text-align: left;
+    font-size: 40px;
+    padding-left: 3%;
+    padding-bottom: 1%;
+}
+.pagp1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 40px;
+    float: left;
+}
+.pagp2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 40px;
+    float: right;
+}
+.icon{
+    color: #020a15;
+    font-size: 30px; 
+    display: inline-block;
+}
+.img8{
+    float: inline-end;
+    float: right; /* Permite mover la imagen hacia la izquierda en el contenedor */
+    margin-left: 10px;
+}
+.img9{
+    width: 400px;
+    height: 300px;
+    float: inline-start;
+    float: left; /* Permite mover la imagen hacia la izquierda en el contenedor */
+    margin-right: 15px;
+}
+.img10, .img12{
+    width: 200px;
+    float: inline-start;
+    float: left; /* Permite mover la imagen hacia la izquierda en el contenedor */
+    margin-right: 15px;
+
+}
+.seul{
+    padding-bottom:1% ;
+    padding-top: 2%;
+}
+.img11{
+    width: 200px;
+    float: inline-end;
+    float: right; /* Permite mover la imagen hacia la izquierda en el contenedor */
+    margin-left: 15px;
+    height: auto;
+}
+.miami{
+    padding-bottom:1% ;
+    padding-top: 2%;
+}
+.img12{
+    height: 150px;
+}
+.london{
+    padding-bottom:3% ;
+    padding-top: 3%;
+}
+.newyork{
+   padding-bottom: 1%; 
+   padding-top: 2%;
+}
+.img13{
+    width: 300px;
+    float: inline-end;
+    float: right; /* Permite mover la imagen hacia la izquierda en el contenedor */
+    margin-left: 15px;
+    height: auto;
+}
+.paris{
+    padding-bottom:1% ;
+    padding-top: 3%;
+}
+.img14{
+    width: 300px;
+    float: inline-start;
+    float: left; /* Permite mover la imagen hacia la izquierda en el contenedor */
+    margin-right: 15px;
+}
+.img15{
+    width: 400px;
+    height: 300px;
+    float: inline-end;
+    float: right; /* Permite mover la imagen hacia la izquierda en el contenedor */
+    margin-left: 15px; 
+}
+.icon1{
+    color:black;
+    display: inline-block;
+    font-size: 30px;
+}
+
