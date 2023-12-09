@@ -3,6 +3,66 @@ body {
     background-color: rgb(238, 238, 228);
 }
 
+/*Todos excepto index*/
+.titulo1,
+.aboutme,
+.topic,
+.net,
+.degree,
+.contact {
+    font-size: 60px;
+    text-align: center;
+    font-style: italic;
+    background-color: #f6b0b0;
+    max-width: 100%;
+    padding: 1%;
+
+}
+
+.aboutme,
+.topic,
+.net,
+.degree,
+.contact {
+    margin-top: 4%;
+}
+
+.icon1 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+
+}
+
+.arreglo {
+    display: inline-block;
+}
+
+.icon2 {
+    color: #020a15;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.pagp1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    float: left;
+    margin: 30px;
+}
+
+.pagp2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 40px;
+    float: right;
+}
+
+/*Index y Degree*/
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
 /*Index*/
 h1 {
     padding: 5%;
@@ -13,17 +73,16 @@ h1 {
     max-width: 100%;
 }
 
-h2 {
-    text-align: center;
-    font-size: 40px;
-}
-
 .lista {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     color: black;
+}
+
+.explicacion {
+    padding-left: 3%;
 }
 
 .lista .lista1 {
@@ -93,63 +152,6 @@ h2 {
     color: rgb(13, 194, 191);
 }
 
-
-/*Todos excepto index*/
-.titulo1,
-.aboutme,
-.topic,
-.net,
-.degree,
-.contact {
-    font-size: 60px;
-    text-align: center;
-    font-style: italic;
-    background-color: #f6b0b0;
-    max-width: 100%;
-    padding: 1%;
-
-}
-
-.aboutme,
-.topic,
-.net,
-.degree,
-.contact {
-    margin-top: 4%;
-}
-
-.icon1,
-.icon3 {
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-
-}
-
-.arreglo,
-.arreglo2 {
-    display: inline-block;
-}
-
-.icon2 {
-    color: #020a15;
-    font-size: 30px;
-    display: inline-block;
-}
-
-.pagp1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    float: left;
-    margin: 30px;
-}
-
-.pagp2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    margin: 40px;
-    float: right;
-}
-
 /*About me*/
 .nombre {
     color: #f6b0b0;
@@ -169,7 +171,6 @@ img {
     float: left;
     max-width: 100%;
     max-height: 100%;
-    padding-left: 10%;
 }
 
 .container {
@@ -261,7 +262,7 @@ h3 {
     display: inline-block;
 }
 
-table,
+#tabla1,
 th,
 td {
     border: 1px solid black;
@@ -271,7 +272,7 @@ td {
 
 }
 
-table {
+#tabla1 {
     font-family: Arial, Helvetica, sans-serif;
     width: auto;
     border-spacing: 10px;
@@ -303,9 +304,7 @@ th {
 
 /*Topic*/
 ul {
-    z-index: 0;
-    text-align: left;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .img3,
@@ -323,7 +322,6 @@ ul {
 }
 
 .img4 {
-    margin-right: 5%;
     float: inline-end;
     width: 200px;
     height: 200px;
@@ -334,10 +332,10 @@ ul {
 }
 
 .contenedor {
-    display: flex;
+    display: block;
     padding-left: 3%;
     padding-top: 2%;
-    padding-right: 5%;
+    padding-right: 10%;
 }
 
 .content3 {
@@ -353,8 +351,8 @@ ul {
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     float: left;
-    padding-left: 3%;
     padding-bottom: 1%;
+    padding-left: 3%;
 }
 
 .titulo3,
@@ -366,20 +364,25 @@ ul {
 }
 
 .img7 {
-    width: 500px;
-    height: 350px;
+    width: 400px;
+    height: 300px;
+    float: inline-start;
+    text-align: center;
+    margin-right: 15px;
 }
 
 .img8 {
     float: inline-end;
     float: right;
+    margin-left: 10px;
 }
 
 .img9 {
     width: 400px;
     height: 300px;
+    float: inline-start;
     float: left;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 .img10,
@@ -454,6 +457,105 @@ ul {
 /*Net*/
 
 /*Degree*/
+.img16,
+.img17 {
+    display: inline;
+    width: 300px;
+    padding-top: 1%;
+}
+
+.img16 {
+    float: inline-start;
+    height: 200px;
+    padding-left: 5%;
+}
+
+.img17 {
+    float: inline-end;
+    padding-right: 5%;
+}
+
+#boton1 {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    border-width: 3px;
+    font-size: 30px;
+}
+
+#boton2 {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    border-width: 3px;
+    font-size: 30px;
+}
+
+#boton3 {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    border-width: 3px;
+    font-size: 30px;
+}
+
+#boton4 {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    border-width: 3px;
+    font-size: 30px;
+}
+
+#boton5 {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    border-width: 3px;
+    font-size: 30px;
+}
+#boton6{
+    border: none;
+    background-color:#f6b0b0 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#tabla2 {
+    margin-left: 20%;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+}
+
+#tabla3 {
+    margin-left: 20%;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+}
+
+#tabla4 {
+    margin-left: 20%;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+}
+
+#tabla5 {
+    margin-left: 20%;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+}
+
+#tabla6 {
+    margin-left: 20%;
+    margin-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+}
+
 
 /*Contact*/
 .contact {
