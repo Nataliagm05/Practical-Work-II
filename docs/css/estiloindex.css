@@ -309,7 +309,7 @@ th {
     display: block;
     padding-left: 3%;
     padding-top: 2%;
-    padding-right: 10%;
+
 }
 
 /*Topic*/
@@ -356,6 +356,7 @@ ul {
     float: left;
     padding-bottom: 1%;
     padding-left: 3%;
+    padding-right: 3%;
 }
 
 .titulo3,
@@ -523,7 +524,21 @@ ul {
     font-size: 30px;
 }
 
-#boton6 {
+/*#boton6 {
+    border: none;
+    background-color: #f6b0b0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}*/
+
+#boton6:hover {
+    background-color: lightblue;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#boton6:not(:hover) {
     border: none;
     background-color: #f6b0b0;
     font-family: Arial, Helvetica, sans-serif;
@@ -573,6 +588,7 @@ ul {
 /*Fundamentals*/
 .asignatura {
     font-size: 25px;
+    margin-right: 3%;
 }
 
 /*Contact*/
@@ -581,6 +597,7 @@ ul {
 }
 
 form {
+    margin-top: 2%;
     display: flex;
     flex-direction: column;
     width: 500px;

@@ -660,28 +660,8 @@
                 tabla6.style.display = "none";
             }
         });
-        let boton6 = document.getElementById("boton6");
-        let contenedorTexto = document.getElementById("contenedorTexto");
 
-        function cambiarColorBoton(color) {
-            boton6.style.backgroundColor = color;
-        }
-        boton6.addEventListener("click", function () {
-            if (contenedorTexto.style.display === "none") {
-                contenedorTexto.style.display = "block";
-            } else {
-                contenedorTexto.style.display = "none";
-            }
-        });
-        boton6.addEventListener("mouseover", function () {
-            cambiarColorBoton("lightblue");
-        });
-
-        boton6.addEventListener("mouseout", function () {
-            cambiarColorBoton("#f6b0b0");
-        });
     </script>
 </body>
 </body>
-
 </html>
