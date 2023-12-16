@@ -303,9 +303,9 @@ th {
     color: #f6b0b0;
 }
 
-/*Topic and Fundamentals*/
+/*Topic, Fundamentals and Net*/
 .contenedor,
-.texto, .texton {
+.texto, .textoexplicacion {
     display: block;
     padding-left: 3%;
     padding-top: 2%;
@@ -460,9 +460,45 @@ ul {
 
 /*Net*/
 .texton{
-    color:aqua;
+    color: rgb(0, 187, 255);
+    margin-bottom: 5%;
+    display: block;
+    padding-left: 3%;
 }
+.alumnoizq, .alumnoizq1{
+    float:inline-start;
+}
+.alumnoder{
+    float:inline-end;
 
+}
+.texton .alumnoder p{
+    float: right;
+}
+.texton .alumnoder a{
+    display: block;
+}
+.texton .alumnoder1 p{
+    float: right;
+}
+.texton .alumnoder1 a{
+    display: block;
+    float: right;
+    padding-left: 30%;
+}
+.texton .alumnoizq p{
+    float: left;
+}
+.texton .alumnoizq a{
+    display: block;
+}
+.texton .alumnoizq1 p{
+    float: left;
+}
+.texton .alumnoizq1 a{
+    display: block;
+    margin-bottom: 10%;
+}
 /*Degree*/
 .img16,
 .img17 {
@@ -582,7 +618,7 @@ ul {
 }
 
 /*Fundamentals*/
-.texto, .texton{
+.texto, .texton, .textoexplicacion{
     font-size: 25px;
     margin-right: 3%;
 }
