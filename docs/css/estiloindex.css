@@ -305,7 +305,7 @@ th {
 
 /*Topic and Fundamentals*/
 .contenedor,
-.asignatura {
+.texto, .texton {
     display: block;
     padding-left: 3%;
     padding-top: 2%;
@@ -459,6 +459,9 @@ ul {
 }
 
 /*Net*/
+.texton{
+    color:aqua;
+}
 
 /*Degree*/
 .img16,
@@ -579,7 +582,7 @@ ul {
 }
 
 /*Fundamentals*/
-.asignatura {
+.texto, .texton{
     font-size: 25px;
     margin-right: 3%;
 }
