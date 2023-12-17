@@ -3,6 +3,23 @@ body {
     background-color: rgb(238, 238, 228);
 }
 
+a .icon1 {
+    display: inline-block;
+}
+
+a .icon1:hover {
+    color: rgb(13, 194, 191);
+}
+
+a .icon2 {
+    display: inline-block;
+}
+
+a .icon2:hover {
+    color: rgb(13, 194, 191);
+}
+
+
 /*Todos excepto index*/
 .header,
 .aboutme,
@@ -66,6 +83,14 @@ h2 {
 }
 
 /*Index*/
+a .icon {
+    display: inline-block;
+}
+
+a .icon:hover {
+    color: #FF0000;
+}
+
 h1 {
     padding: 5%;
     font-size: 60px;
@@ -160,15 +185,26 @@ h1 {
     text-align: center;
     font-size: 40px;
     margin-top: 2%;
+    margin-bottom: 0.5%;
 }
 
 .content {
+    padding-top: 2.9%;
     float: right;
-    height: 250px;
+    height: 425px;
     max-width: 100%;
     background: #f6b0b0;
 }
-
+.textomio{
+    float: right;
+    background: #f6b0b0;
+    font-size: 23px;
+    width: 950px;
+    padding-left: 5%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 img {
     float: left;
     max-width: 100%;
@@ -200,8 +236,9 @@ h3 {
 
 .imagen-activa {
     display: inline-block;
-    width: 300px;
-    padding-left: 9%;
+    width: 375px;
+    height: 500px;
+    padding-left: 5%;
 }
 
 .imagen-inactiva {
@@ -218,7 +255,7 @@ h3 {
 
 .flecha-izquierda {
     float: left;
-    margin-left: 10%;
+    margin-left: 12%;
 }
 
 .flecha-derecha {
@@ -228,7 +265,7 @@ h3 {
 .Instagram {
     width: 60px;
     height: 60px;
-    padding-left: 40%;
+    padding-left: 33%;
     display: inline-block;
 }
 
@@ -302,10 +339,14 @@ th {
     padding-bottom: 3%;
     color: #f6b0b0;
 }
+.redes{
+    margin-top: 2%;
+}
 
 /*Topic, Fundamentals and Net*/
 .contenedor,
-.texto, .textoexplicacion {
+.texto,
+.textoexplicacion {
     display: block;
     padding-left: 3%;
     padding-top: 2%;
@@ -459,46 +500,58 @@ ul {
 }
 
 /*Net*/
-.texton{
+.texton {
     color: rgb(0, 187, 255);
     margin-bottom: 5%;
     display: block;
     padding-left: 3%;
 }
-.alumnoizq, .alumnoizq1{
-    float:inline-start;
+
+.alumnoizq,
+.alumnoizq1 {
+    float: inline-start;
 }
-.alumnoder{
-    float:inline-end;
+
+.alumnoder {
+    float: inline-end;
 
 }
-.texton .alumnoder p{
+
+.texton .alumnoder p {
     float: right;
 }
-.texton .alumnoder a{
+
+.texton .alumnoder a {
     display: block;
 }
-.texton .alumnoder1 p{
+
+.texton .alumnoder1 p {
     float: right;
 }
-.texton .alumnoder1 a{
+
+.texton .alumnoder1 a {
     display: block;
     float: right;
     padding-left: 30%;
 }
-.texton .alumnoizq p{
+
+.texton .alumnoizq p {
     float: left;
 }
-.texton .alumnoizq a{
+
+.texton .alumnoizq a {
     display: block;
 }
-.texton .alumnoizq1 p{
+
+.texton .alumnoizq1 p {
     float: left;
 }
-.texton .alumnoizq1 a{
+
+.texton .alumnoizq1 a {
     display: block;
     margin-bottom: 10%;
 }
+
 /*Degree*/
 .img16,
 .img17 {
@@ -527,6 +580,10 @@ ul {
     font-size: 30px;
 }
 
+button#boton1:hover {
+    color: rgb(13, 194, 191);
+}
+
 #boton2 {
     background-color: #f6b0b0;
     display: inline-block;
@@ -535,7 +592,9 @@ ul {
     border-width: 3px;
     font-size: 30px;
 }
-
+button#boton2:hover {
+    color: rgb(13, 194, 191);
+}
 #boton3 {
     background-color: #f6b0b0;
     display: inline-block;
@@ -544,7 +603,9 @@ ul {
     border-width: 3px;
     font-size: 30px;
 }
-
+button#boton3:hover {
+    color: rgb(13, 194, 191);
+}
 #boton4 {
     background-color: #f6b0b0;
     display: inline-block;
@@ -553,7 +614,9 @@ ul {
     border-width: 3px;
     font-size: 30px;
 }
-
+button#boton4:hover {
+    color: rgb(13, 194, 191);
+}
 #boton5 {
     background-color: #f6b0b0;
     display: inline-block;
@@ -562,7 +625,9 @@ ul {
     border-width: 3px;
     font-size: 30px;
 }
-
+button#boton5:hover {
+    color: rgb(13, 194, 191);
+}
 #boton6:hover {
     background-color: lightblue;
     border: none;
@@ -618,7 +683,9 @@ ul {
 }
 
 /*Fundamentals*/
-.texto, .texton, .textoexplicacion{
+.texto,
+.texton,
+.textoexplicacion {
     font-size: 25px;
     margin-right: 3%;
 }
